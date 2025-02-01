@@ -1,0 +1,38 @@
+body {
+    background-color: #f2e9d0;
+}
+
+.card{
+    background-color: #e79e85;
+    height: 350px;
+    width: 700px;
+    padding: 5px;
+    margin: 10px;
+    border: solid 1px black;
+    border-radius: 5%;
+    text-align:center;
+}
+
+img{
+    border: solid 1px black;
+}
+
+.navbar{
+    background-color: #e79e85;
+    height: 40px;
+    width: 100%;
+    border: solid 1px black;
+    border-radius: 1%;
+}
+
+.button{
+    margin: 5px;
+    font: 1em italic
+}
+
+.card-container{
+    border: solid 1px black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
