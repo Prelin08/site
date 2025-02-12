@@ -1,9 +1,9 @@
+import Header from "../components/Header"
+
 export default function Home() {
   return (
     <div>
-        <h1>
-            This is my home page.
-        </h1>
+        <Header text = {"This is my home page."}/>
     </div>
   )
 }

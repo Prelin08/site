@@ -10,7 +10,7 @@ import Currencies from "../components/Currencies"
 function Page1() {
     return(
         <div>
-            <Header />
+            <Header text = {"My Currency Statistics"}/>
             <Summary />
             <div className = {"card-container"}>
                 <div>

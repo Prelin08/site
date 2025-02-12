@@ -1,6 +1,7 @@
-function Header(){
+
+function Header(props : {text:string}){
     return(
-        <h1 className="">My Currency Statistics</h1>
+        <h1>{props.text}</h1>
     )
 }
 
