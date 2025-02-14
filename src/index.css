@@ -1,9 +1,9 @@
 body {
-    background-color: #f2e9d0;
+    background-color: #38598b;
 }
 
 .card{
-    background-color: #e79e85;
+    background-color:  #a2a8d3;
     height: 350px;
     width: 700px;
     padding: 5px;
@@ -18,7 +18,7 @@ img{
 }
 
 .navbar{
-    background-color: #e79e85;
+    background-color:  #a2a8d3;
     height: 40px;
     width: 100%;
     border: solid 1px black;
@@ -35,4 +35,12 @@ img{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
+}
+
+.Header{
+    background-color:  #a2a8d3
+}
+
+.Summary{
+    background-color:  #a2a8d3
 }

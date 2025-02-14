@@ -1,7 +1,7 @@
 
 function Header(props : {text:string}){
     return(
-        <h1>{props.text}</h1>
+        <h1 className = {"Header"}>{props.text}</h1>
     )
 }
 
